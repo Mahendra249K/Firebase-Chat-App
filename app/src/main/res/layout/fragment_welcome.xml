@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.Fragment.WelcomeFragment">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        android:layout_alignEnd="@+id/logo"
+        android:gravity="center"
+        android:text="Welcom to" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_alignStart="@+id/logo"
+        android:layout_alignEnd="@+id/logo"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Tupple" />
+
+
+
+</RelativeLayout>
